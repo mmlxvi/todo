@@ -51,127 +51,26 @@ table {
 
 /* my work here */
 
-html {
-	
-}
-
-body {
-	text-align:center;
-	background-color:black;
-}
-
-#holder {
-	
-}
-
-#header {
-	color:blue;
-	margin-top:80px;
-	margin-left:auto;
-	margin-right:auto;
-	width:900px;
-	margin-bottom:40px;
-	font-family:Geneva;
-		
-}
-
-#header img {
-	width:70%;
-	
-
-}
 
 
-#inner-div {	
-
-	margin-left:auto;
-	margin-right:auto;
-  	width:900px;
-	
-  	
-  	z-index:1;
-  /*display:inline-block; */
-  
-}
-
-#inner-div img {
-	width:80%;
-
-}
-
-#inner-div2
-{
-	margin-left:auto;
-	margin-right:auto;
-  	width:900px;
-	margin-top:580px;
-	
-	position:relative;
-
- 	
-}
-
-#inner-div2 img {
-	width:48%;
-	
-}
-
-
-#youTubeHolder {
-	margin-top:-450px;
-	margin-left:-120px;
-	
- }
-
-
-
-.hidden {
-	display:none;
-}
-
-
-
-.tvON {
-	
-	
-}
-
-.pink {
-	margin-left:-7%;
-	margin-right:auto;
-  	width:900px;
-	/* background-color:pink; */
-	z-index:-1;
-	margin-top:-400px;
-	text-align:center;
-	
-}
-
-
-}
-
-#inner-div3
-{
-  
-  width:360px;
-	height:600px;
-  background-color: red;
-  display:inline-block;
-text-align:center;
-display:none;
-  
+.main {
+	background-color:lightblue;
+	 position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+     background-color: #ccc;
 }
 
 
 
 
-#foot {
-	color:white;
-	font-family:Geneva;
-	margin-top:736px;
-	padding-right:10px;
-	float:right;
-}
+
+
 
 
 
