@@ -73,8 +73,8 @@ body {
      width: 600px;
      height:565px;
     
-      background: rgba(175, 175, 175, 0.5);
-    -pie-background:  rgba(175, 175, 175, 0.5);
+      background: rgba(175, 175, 175, 0.7);
+    -pie-background:  rgba(175, 175, 175, 0.7);
     behavior: url(PIE.htc);
      
 }
