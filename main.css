@@ -58,7 +58,7 @@ table {
 body {
 	background-image:url("images/Aurora_borealis_above_Lyngenfjorden,_2012_March-3.jpg");
 	background-repeat:none;
-	background-size: 2000px 1200px;
+	background-size:1400px 900px;
 	background-repeat:none;
 }
 
@@ -188,7 +188,7 @@ a:visited {
 	margin:11px 14px 11px 17px;
 	text-align:center;
 	font-family:trebuchet ms;
-	background-color:white;
+	background-color:#f3f3f3;
 	line-height:30px;
 	
 }
