@@ -55,8 +55,13 @@ table {
 	outline:1px solid blue;
 }
 
+body {
+	background-image:url("images/3dcloudbackground.jpg");
+	background-repeat:none;
+}
+
 .main {
-	background-color:lightblue;
+	 background-image:url("images/transtodoPNG.png") opacity:0.5;
 	 position: absolute;
      margin: auto;
      top: 0;
@@ -66,7 +71,7 @@ table {
      width: 600px;
      height:565px;
      background-color: #ccc;
-     background-opacity:0.5;
+     
 }
 
 #logo {
