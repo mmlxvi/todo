@@ -1,7 +1,4 @@
-
-
-$( document ).ready(function() {
-        
+$( document ).ready(function() {        
  
   /*Allows Return key to submit text from form */
    $('#input').keydown(function(e) {
@@ -26,10 +23,9 @@ $( document ).ready(function() {
 		}
 	});
 
-   
-
-
-/* borrowed from other */
+   $("#clearList").hover(function() {
+      $('#clearList <a>').css("color:#6ad3ff");
+  }); 
 
    $(document).on("click", "p", function() {
       $(this).toggleClass("completed");
