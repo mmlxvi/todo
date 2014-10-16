@@ -23,16 +23,13 @@ $( document ).ready(function() {
 		}
 	});
 
-   $("#clearList").hover(function() {
-      $('#clearList <a>').css("color:#6ad3ff");
-  }); 
 
    $(document).on("click", "p", function() {
       $(this).toggleClass("completed");
   });
 
   $(document).on("dblclick", "p", function() {
-      $(this).fadeOut("slow", function() {
+      $(this).fadeOut("medium", function() {
         $(this).remove();
         $("#taskplaceholdersection").append('<p class="taskplacemarks">' + '</p>');
     });
