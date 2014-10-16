@@ -1,12 +1,14 @@
 
 
 $( document ).ready(function() {
-
-	
-  
+        
+ 
   /*Allows Return key to submit text from form */
    $('#input').keydown(function(e) {
-
+       
+        if( e.which === 32 && this.value === '' ) {
+            return false;
+        }  
 	   if(e.keyCode == 13) {
 		
     		var task = $(this).val();
