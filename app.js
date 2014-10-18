@@ -14,7 +14,7 @@ $( document ).ready(function() {
     	
   			}
   			else {
-  	
+  	     
         $("#addedtasks").append('<p>' + task + '</p>');
         $('#input').val("");
         $("#taskplaceholdersection").children(":first-child").remove();
