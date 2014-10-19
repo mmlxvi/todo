@@ -56,11 +56,14 @@ table {
 }
 
 body {
-	background-image:url("images/127493.jpg");
+	background-image:url("images/aurora-borealis-manitoba-canada.jpg");
+    background-position:center;
     background-color:#F8F8F8;
 	background-repeat:none;
 	background-size:2000px 1100px;
 	background-repeat:none;
+    height:1000px;
+    background-repeat:no-repeat;
 }
 
 .main {
